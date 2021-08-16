@@ -17,7 +17,7 @@
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Products</a></li>
                     <li><button class='loginbtn'onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
-                    <li><button class='loginbtn'onclick="document.getElementById('register-form').style.display='block'" style="width:auto;">Register</button></li>
+                    <li><button class='loginbtn'onclick="document.getElementById('register-form').style.display='block'" style="width:auto;">Sign Up</button></li>
                 </ul>
             </nav>
         </div>
@@ -31,7 +31,7 @@
             <div class="form-box">
                 <span onclick="document.getElementById('login-form').style.display='none'" class="close">&times;</span>
                 <div class="form">
-                    <form class='login-form', action="", method="post">
+                    <form class='login-form', action="validation.php", method="post">
                         <center><h1 class="main-heading">Login Form</h1></center>
 				        <input type="text"name='emailid' placeholder="Email ID", required/>
 				        <input type="password" name='password' placeholder="Password", required/>
@@ -44,7 +44,7 @@
             <div class="form-box1">
                <span onclick="document.getElementById('register-form').style.display='none'" class="close">&times;</span>
                 <div class="form1">
-                    <form class='register-form', action="", method="post">
+                    <form class='register-form', action="registration.php", method="post">
                         <center><h1 class="main-heading">Sign Up Form</h1></center>
 				        <input type="text" name='user'placeholder="User Name" required/>
 				        <input type="text" name='emailid'placeholder="Email Address" required/>
